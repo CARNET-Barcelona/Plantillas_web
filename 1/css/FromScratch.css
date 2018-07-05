@@ -1,0 +1,272 @@
+/* GENERAL
+   ======= */
+*{
+	margin: 0px;
+	padding: 0px;
+   border: 0px;
+}
+
+body{
+   background-color: white;
+}
+
+/* MENU
+   ==== */
+
+
+/* PADRE
+   ===== */
+.Padre{
+   width: 100%;
+   height: ;
+   background-color: #db5c24;
+   position: relative;
+   top: 60px;
+   right: ;
+   bottom: ;
+   left: ;
+   margin: 10px 10px 10px 10px;
+}
+
+/* ABOUT
+   ===== */
+.Padre .About{
+   width: 1800px;
+   height: 500px;
+   /*background-color: red; */
+   background-color: white;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+.Padre .About .About_Element{
+   /* Común a los dos elementos about */
+   height: 400px;
+   padding: 30px;
+}  
+
+#About_1{
+   /* Elemento about 1 */
+   background-color: blue;
+}
+
+
+#About_2{
+   /* Elemento about 2 */
+   background-color: orange;
+}
+
+
+/* ICONITOS
+   ======== */
+.Padre .Iconitos{
+   width: 1800px;
+   height: 500px;
+  /* background-color: yellow; */
+   background-color: white;
+   position: absolute;
+   top: 500px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+.Padre .Iconitos .Iconito_Element{
+  /* Común a los cuatro elementos Iconito */
+}
+
+#Iconito_1{
+   /* Elemento Iconito 1 */
+   background-color: black;
+}
+
+#Iconito_2{
+   /* Elemento Iconito 2 */
+   background-color: white;
+}
+
+#Iconito_3{
+   /* Elemento Iconito 3 */
+   background-color: red;
+}
+
+#Iconito_4{
+   /* Elemento Iconito 4 */
+   background-color: green;
+}
+
+/* RETOS
+   ===== */
+.Padre .Retos{
+   width: 1800px;
+   height: 1000px;
+   /*background-color: green; */
+   background-color: white;
+   position: absolute;
+   top: 1000px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* REQUISITOS
+   ========== */
+.Padre .Requisitos{
+   width: 1800px;
+   height: 500px;
+  /* background-color: orange; */
+   background-color: white;
+   position: absolute;
+   top: 1500px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* AGENDA
+   ====== */
+.Padre .Agenda{
+   width: 1800px;
+   height: 500px;
+   background-color: white;
+   position: absolute;
+   top: 2000px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* MAPA
+   ==== */
+.Padre .Mapa{
+   width: 1800px;
+   height: 500px;
+   /*background-color: brown; */
+   background-color: white;
+   position: absolute;
+   top: 2500px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* ANTERIORES
+   ========== */
+.Padre .Anteriores{
+   width: 1800px;
+   height: 500px;
+  /* background-color: black; */
+   background-color: white;
+   position: absolute;
+   top: 3000px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* LOGOS
+   ===== */
+.Padre .Logos{
+   width: 1800px;
+   height: 500px;
+   background-color: white;
+   position: absolute;
+   top: 3500px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+/* FOOTER
+   ======*/
+.Padre .Footer{
+   width: 1800px;
+   position: absolute;
+   top: 4000px;
+   right: ;
+   bottom: 0px;
+   left: 50%;
+   transform: translate(-50%, 0);
+   }
+
+#Direccion_1{
+   /* Carrer Jordi Girona, 31 */
+   color: black;
+}
+
+#Direccion_1:hover{
+   /* Carrer Jordi Girona, 31 */
+   color: #db5c24;
+   font-weight: bold;
+}
+
+#Direccion_2{
+   /* Edifci Til·lers, Barcelona */
+   color: black;
+}
+
+#Direccion_2:hover{
+   /* Edifci Til·lers, Barcelona */
+   color: #db5c24;
+   font-weight: bold;
+}
+
+#Telefono{
+   /* +34 93 413 76 04 */
+   color: black;
+   font-weight: bold;
+}
+
+#Telefono:hover{
+   /* +34 93 413 76 04 */
+   color: #db5c24;
+   font-weight: bold;
+}
+
+#Info-CARNET a{
+   /* info@carnetbarcelona */
+   color: #db5c24;
+}
+
+#Info-CARNET a:hover{
+   /* info@carnetbarcelona */
+   color: #db5c24;
+   font-weight: bold;
+}
+
+#CARNET-Web a{
+   /* www.carnet.barcelona */
+   color: #db5c24;
+}
+
+#CARNET-Web a:hover{
+   /* www.carnet.barcelona */
+   color: #db5c24;
+   font-weight: bold;
+}
+
+.Padre .Footer .Boton_gordo{
+	color: white;
+	background-color: #db5c24;
+}
+
+#Icono{
+	color: #db5c24;
+}
+
