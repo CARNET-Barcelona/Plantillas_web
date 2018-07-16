@@ -1,0 +1,109 @@
+/* GENERAL
+   ======= */
+*{
+	margin: 0px;
+	padding: 0px;
+   border: 0px;
+}
+
+body{
+   background-color: white;
+}
+
+/* PADRE
+   ===== */
+.Padre{
+   width: 100%;
+   height: ;
+   background-color: #db5c24;
+   position: relative;
+   top: 60px;
+   right: ;
+   bottom: ;
+   left: ;
+   margin: 10px 10px 10px 10px;
+}
+
+/* ABOUT
+   ===== */
+.Padre .About{
+   width: 80%;
+   height: 200px;
+   /*background-color: red; */
+   background-color: white;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 0.5;
+}
+
+.Padre .About .About_Element{
+   /* Común a los dos elementos about */
+   height: 200px;
+   padding: 30px;
+}  
+
+#About_1{
+   /* Elemento about 1 */
+   background-color: white;
+}
+
+
+#logo1{
+   margin: 100px;
+   padding: 30px;
+   height: 200px !important;
+   width: 300px !important;
+   -moz-box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+   -webkit-box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+   box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+}
+
+#About_2{
+   /* Elemento about 2 */
+   background-color: orange;
+}
+
+/* LOGOS
+   ===== */
+.Padre .Logos{
+   width: 80%;
+   height: 200px;
+   background-color: white;
+   position: absolute;
+   top: 3500px;
+   right: ;
+   bottom: ;
+   left: 50%;
+   transform: translate(-50%, 0);
+   opacity: 1;
+}
+
+.Padre .logo{
+
+}
+
+.Padre .logo:hover{
+
+}
+
+.imagen-logo{
+   max-height: 200px;
+   max-width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+.imagen-logo:hover{
+   max-height: 200px;
+   max-width: 200px;
+   transform: scale(1.5, 1.25);
+   -moz-transform: scale(1.5, 1.25);
+   -ms-transform: scale(1.5, 1.25);
+   -webkit-transform: scale(1.5, 1.25);
+   -o-transform: scale(1.5, 1.25);
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
