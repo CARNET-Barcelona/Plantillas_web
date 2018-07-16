@@ -14,8 +14,9 @@ body{
    ===== */
 .Padre{
    width: 100%;
-   height: ;
-   background-color: #db5c24;
+   height: 500px;
+ /*  background-color: #db5c24; */
+   background-color: white;
    position: relative;
    top: 60px;
    right: ;
@@ -31,7 +32,7 @@ body{
    height: 200px;
    /*background-color: red; */
    background-color: white;
-   position: absolute;
+   position: relative;
    left: 50%;
    transform: translate(-50%, 0);
    opacity: 0.5;
@@ -61,7 +62,42 @@ body{
 
 #About_2{
    /* Elemento about 2 */
-   background-color: orange;
+   background-color: white;
+}
+
+#About_2 .Cuadrado{
+   width: 80%;
+   height: 80%;
+   position: relative;
+   display: block;
+   margin: auto;
+   background-color: white;
+   -moz-box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+   -webkit-box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+   box-shadow: 2px 3px 7px rgba(29,32,40,.3) !important;
+}
+
+#About_2 .Cuadrado img{
+   width: 80%;
+   height: 80%;
+   position: relative;
+   display: block;
+   margin: auto;
+   opacity: 1. !important;
+}
+
+#About_2 .Cuadrado img:hover{
+   width: 80%;
+   height: 80%;
+   position: relative;
+   display: block;
+   margin: auto;
+   opacity: 1. !important;
+   transform: scale(1.2, 1.2);
+   -moz-transform: scale(1.5, 1.25);
+   -ms-transform: scale(1.5, 1.25);
+   -webkit-transform: scale(1.5, 1.25);
+   -o-transform: scale(1.5, 1.25);
 }
 
 /* LOGOS
@@ -70,7 +106,7 @@ body{
    width: 80%;
    height: 200px;
    background-color: white;
-   position: absolute;
+   position: relative;
    top: 3500px;
    right: ;
    bottom: ;
